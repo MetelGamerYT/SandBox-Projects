@@ -1,0 +1,49 @@
+Hud
+{
+    .hudbackground {
+        position: fixed;
+        left: 1%;
+        top: 89%;
+        width: 15%; height: 10%; background-color: rgba(50,50,50,200);
+        border: 1% rgb(30, 30, 30);
+
+        .label{
+            left: 2%;
+        }
+
+        .armorbar {
+            position: absolute;
+            top: 45%;
+            left: 2%;
+            width: 95%;
+            height: 20%;
+            background-color: rgb(47,82,144);
+            border: 1% rgb(30, 30, 30);
+
+            .label {
+                top: -20%;
+            }
+        }
+
+        .healthbar {
+            position: absolute;
+            top: 75%;
+            left: 2%;
+            width: 95%;
+            height: 20%;
+            background-color: rgb(115,47,47);
+            border: 1% rgb(30, 30, 30);
+
+            .label {
+                top: -20%;
+            }
+        }
+    }
+
+    .label {
+        position: absolute;
+        color: white;
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+    }
+}

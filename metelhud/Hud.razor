@@ -1,0 +1,26 @@
+@using Sandbox;
+@using Sandbox.UI;
+
+@namespace MyGame
+@inherits RootPanel
+@attribute [StyleSheet]
+
+<root>
+    <ChatBox/>
+    <VoiceList/>
+
+    <div class="hudbackground">
+        <label for="MetelHUD_UserName">ID: @Game.LocalClient.Name</label>
+        <label for="" style="top: 20%;">Job: Coming Soon!</label>
+        <div class="armorbar">
+            <label for="">Armor: 100/100</label>
+        </div>
+        <div class="healthbar">
+            <label for="">Health: 100/100</label>
+        </div>
+    </div>
+</root>
+
+@code
+{
+}
